@@ -10,7 +10,6 @@ int d[MAX_N][MAX_N];
 int d2[MAX_N][MAX_N];
 int maxL;
 int main() {
-
     while(scanf("%d%d", &n, &m) == 2 && n) {
         for(int i = 0; i < m; i++) {
             scanf("%d", &p[i]);
@@ -57,8 +56,8 @@ int main() {
                 }
             }
         }
-        if(!maxL)d2[0][n]=0;
-        printf("%d %d\n",d[0][n],d2[0][n]);
+        if(!maxL)d2[0][n] = 0;
+        printf("%d %d\n", d[0][n], d2[0][n]);
     }
     return 0;
 }
