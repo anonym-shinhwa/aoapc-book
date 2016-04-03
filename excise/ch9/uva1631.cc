@@ -7,7 +7,7 @@ int dp[MAX_N][10][10];
 
 char s1[MAX_N], s2[MAX_M];
 int main() {
-    freopen("E:\\in.txt", "r", stdin);
+   // freopen("E:\\in.txt", "r", stdin);
     while(scanf("%s%s", s1, s2) == 2) {
         int n = strlen(s1);
         memset(dp, 63, sizeof(dp));
